@@ -1,12 +1,11 @@
 ﻿# Data Quality for Software Vulnerability Datasets: Replication & Audit Suite
 
 [![Conference](https://img.shields.io/badge/ICSE-2023-blue.svg)](https://conf.researchr.org/home/icse-2023)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python: 3.8+](https://img.shields.io/badge/Python-3.8%2B-green.svg)](https://www.python.org/)
 [![Status: Verified](https://img.shields.io/badge/Artifacts-Reproducible-brightgreen.svg)]()
 
 > **Minor/Major Project Implementation**  
-> **Student:** Ravikaran Singh (Roll No: `M26CSE012`)  
+> **Student:** Ravikaran Singh (Roll No: `M26CSE012`), Teerth Bhardwaj (Roll No: `M26CSE010`)  
 > **Institution:** Department of Computer Science & Engineering, Indian Institute of Technology Jodhpur  
 > **Selected Research Paper:** *"Data Quality for Software Vulnerability Datasets"* (ICSE 2023)  
 > **Authors:** Roland Croft, M. Ali Babar, M. Mehdi Kholoosi (University of Adelaide / Cyber Security CRC)
@@ -121,21 +120,8 @@ python -m scripts.evaluate_model_impact
 │   └── generate_samples.py          # Sample data generator
 ├── requirements.txt                 # Python package dependencies
 ├── setup.py                         # Package installation configuration
-├── LICENSE                          # MIT License
 └── README.md                        # Project documentation
 ```
-
----
-
-## 🎓 Academic Deliverables Reference
-
-This implementation forms part of the Minor/Major Project submission at IIT Jodhpur:
-- **Project Report:** Formatted according to IEEE academic specifications (`2_Project_Report_Software_Vulnerability_Data_Quality.pdf`).
-- **Architecture Diagram:** Available in PNG and vector PDF (`3_Architecture_Diagram.png`).
-- **Presentation Deck:** 15-slide widescreen PPTX deck (`4_Presentation_Slides_Software_Vulnerability_Data_Quality.pptx`).
-- **10-Minute Video Guide:** Minute-by-minute speaking script (`5_Video_Presentation_10Min_Script_and_Guide.pdf`).
-
----
 
 ## 📚 References
 1. Roland Croft, M. Ali Babar, and M. Mehdi Kholoosi. *"Data Quality for Software Vulnerability Datasets."* In Proceedings of the 45th IEEE/ACM International Conference on Software Engineering (ICSE 2023), pp. 121-133.
