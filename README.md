@@ -7,7 +7,7 @@
 > **Minor/Major Project Implementation**  
 > **Student:** Ravikaran Singh (Roll No: `M26CSE012`), Teerth Bhardwaj (Roll No: `M26CSE010`)  
 > **Institution:** Department of Computer Science & Engineering, Indian Institute of Technology Jodhpur  
-> **Selected Research Paper:** *"Data Quality for Software Vulnerability Datasets"* (ICSE 2023)  
+> **Selected Research Paper:** *"Data Quality for Software Vulnerability Datasets"*  (ICSE 2023)  
 > **Authors:** Roland Croft, M. Ali Babar, M. Mehdi Kholoosi (University of Adelaide / Cyber Security CRC)
 
 ---
