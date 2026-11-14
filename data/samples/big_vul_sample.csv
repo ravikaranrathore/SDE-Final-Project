@@ -1,0 +1,30 @@
+UID,Function,Vulnerable,Date,Label_Correct,Error_Theme
+101,"int process_header(char *buf, int len) {
+    char dest[64];
+    strcpy(dest, buf);
+    return 0;
+}",1,2018-04-12,1,None
+102,"int process_header(char *buf, int len) {
+    char dest[64];
+    strcpy(dest, buf);
+    return 0;
+}",1,2018-04-12,1,None
+103,"int update_flags(struct ctx *c, int fl) {
+    c->flags = fl;
+    return 1;
+}",1,2018-06-20,0,Irrelevant
+104,"void cleanup_handle(void *ptr) {
+    if (ptr) ptr = NULL;
+}",1,2019-01-15,0,Cleanup
+105,"static inline int get_val(int x) {
+    return x * 2;
+}",0,2019-02-10,1,None
+106,"parse_packet(uint8_t *pkt, size_t sz) {
+    memcpy(global_buf, pkt, sz);
+}",1,2019-03-01,1,None
+107,"int compute_crc(const char *data) {
+    return 0xAA;
+}",0,2019-05-18,1,None
+108,"int compute_crc(const char *data) {
+    return 0xAA;
+}",1,2019-07-22,0,Inaccurate
